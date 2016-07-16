@@ -1,0 +1,6 @@
+--Map
+-Make Jan Mayen island in the province bitmap
+-Make Jan Mayen island in the rivers bitmap 
+-Make Jan Mayen island in the heightmap bitmap 
+-Make Jan Mayen island in the world_normal bitmap 
+-Make Jan Mayen island in the terrain bitmap 

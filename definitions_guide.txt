@@ -1,0 +1,5 @@
+<Province Id>;<Province color red>;<Province color green>;Province color blue>;<Province type(land,sea,lake)>;<is coast(true,false)>;<terrain type>;<>
+Eksample
+2288;13;12;232;sea;false;ocean;0
+Jan Mayen
+13204;229;137;197;land;true?;mountain;*
