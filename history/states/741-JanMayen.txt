@@ -26,6 +26,6 @@ state={
 		13204
 	}
 	manpower=52
-	buildings_max_level_factor=5	
+	buildings_max_level_factor=1
 	state_category="small_island"
 }

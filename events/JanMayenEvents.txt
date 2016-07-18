@@ -1,0 +1,22 @@
+﻿add_namespace = janMayen
+
+# Austrian Anschluss Completed
+country_event = {
+	id = janMayen.1
+	title = janMayen.1.t
+	desc = janMayen.1.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = janMayen.1.a
+		741 = {
+			if = {
+				limit = { is_owned_by = JAN }
+				#state_category = megalopolis
+			}
+		
+		
+	}
+}

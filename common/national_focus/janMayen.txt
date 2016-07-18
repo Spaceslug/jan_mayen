@@ -1,0 +1,55 @@
+focus_tree = {
+	id = janMayen_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = JAN
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = attract_immigrants_jan
+		icon = GFX_goal_generic_production
+		x = 1
+		y = 0
+		cost = 10
+		completion_reward = {
+			741 = {
+				add_manpower = 10000
+			}
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	focus = {
+		id = industrial_effort_jan
+		icon = GFX_goal_generic_production
+		x = 13
+		y = 0
+		cost = 10
+		completion_reward = {
+			741 = {
+				add_extra_state_shared_building_slots = 5
+			}
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+		}
+
+		ai_will_do = {
+			factor = 3
+		}
+	}	
+
+}

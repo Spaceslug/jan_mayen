@@ -1,6 +1,10 @@
 --Map
--Make Jan Mayen island in the province bitmap
+-Make Jan Mayen island in the province bitmap(done)
 -Make Jan Mayen island in the rivers bitmap 
--Make Jan Mayen island in the heightmap bitmap 
+-Make Jan Mayen island in the heightmap bitmap (done) 
 -Make Jan Mayen island in the world_normal bitmap 
--Make Jan Mayen island in the terrain bitmap 
+-Make Jan Mayen island in the terrain bitmap (done)
+--National Focus
+-Make the national focus tree
+-Make polar bear line
+--Make polar bear nation
