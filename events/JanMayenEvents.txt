@@ -16,7 +16,23 @@ country_event = {
 				limit = { is_owned_by = JAN }
 				#state_category = megalopolis
 			}
+		}
 		
-		
+	}
+}
+
+country_event = {
+	id = janMayen.toManyImmigrants
+	title = janMayen.toManyImmigrants.t
+	desc = janMayen.toManyImmigrants.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = janMayen.toManyImmigrants.a
+		JAN = {
+			add_national_unity = -0.10
+		}		
 	}
 }
