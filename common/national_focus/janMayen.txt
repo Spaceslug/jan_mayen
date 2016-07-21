@@ -71,29 +71,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = JAN_sre
-		icon = GFX_goal_generic_production
-		prerequisite = { focus = JAN_attract_more_immigrants }
-		x = 24
-		y = 2
-		cost = 10
-		completion_reward = {
-			741 = {
-				add_manpower = 20000
-			}
-			JAN = {
-				country_event = { 
-					id = janMayen.toManyImmigrants 
-					days = 1 
-				}
-			}
-		}
-
-		ai_will_do = {
-			factor = 2
-		}
-	}
+	
 
 	#Generic focus three mostly
 	focus = {
