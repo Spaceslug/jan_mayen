@@ -25,12 +25,36 @@
  JAN_extra_tech_slot:0 "Extra Research slot"
  JAN_extra_tech_slot_desc:0 "Continue the great tradition of the Norwegian Meteorological Institute and develop the reserch potential of Jan Mayen"
 
- janMayen.toManyImmigrants.t:0 "Too many immigrants"
- janMayen.toManyImmigrants.d:0 "The immigrants that have resently arrived is starting to take a toll on the unity of this great nation. Multiculturism issen't as easy as it seems"
- janMayen.toManyImmigrants.a:0 "We just have to deal with it"
+ janMayen.2.t:0 "Too many immigrants"
+ janMayen.2.d:0 "The immigrants that have resently arrived is starting to take a toll on the unity of this great nation. Multiculturism issen't as easy as it seems"
+ janMayen.2.a:0 "We just have to deal with it"
 
  JAN_GATHERING_STORM_DESC:0 "By popular referendum the members of the Norwegian Meteorological Institute stationed at Jan Mayen have gained independence for the island. The world wonders what future this tiny nation will forge for itself"
  JAN_BLITZKRIEG_DESC:0 "Jan Mayen have achived much in the short time it has existed. With war starting in Europe. Jan Mayen must thread carefully"
+ national_focus_WIP:0 "This national focus is not yet implemented"
+ JAN_expansive_retoric:0 "Expansive Retoric"
+ JAN_expansive_retoric_desc:0 "Initiate political effort to attempt the expantion of Jan Mayen's borders"
+ JAN_core_on_iceland_greenland:0 "Old Norse Cores"
+ JAN_core_on_iceland_greenland_desc:0 "Jan Mayen starts a political push, with the goal of annexing Iceland and Greenland"
+ JAN_demand_iceland_greenland:0 "Demand Iceland and Greenland"
+ JAN_demand_iceland_greenland_desc:0 "Send a ultimatum to Denmark demanding the states of Iceland and Greenland"
+ JAN_icy_cores:0 "Inuit attraction"
+ JAN_icy_cores_desc:0 "Through propaganda directed against inniuts in Canada and the British colonys in north amarica. Jan Mayen have created desire among those people to join this great nation"
+ JAN_it_belongs_to_us:0 "It belongs to us"
+ JAN_it_belongs_to_us_desc:0 "War goal against Canada and England"
+ JAN_nowegian_governmet_illigitimate:0 "Core on Norway"
+ JAN_nowegian_governmet_illigitimate_desc:0 "There is desire among the norwegian population to overthrowe the government in exschange for Jan Mayen"
+ JAN_replace_the_rulers:0 "Conquest of Norway"
+ JAN_replace_the_rulers_desc:0 "Gain war goal against Norway, an install Jan Mayen as rightfull owners of Norway"
+ JAN_crazy_science:0 "Brain Implants"
+ JAN_crazy_science_desc:0 "Experiment on brain implants in animals"
+ JAN_polar_bear_cavalry:0 "Brain Implants in Polar Bears"
+ JAN_polar_bear_cavalry_desc:0 "By inserting the newly developed brain implants in polar bears, Jan Mayen scientist belive they can controle them. Therby the posibility to create polar bear cavalry"
+ JAN_panserbjorner:0 "Panserbjørner"
+ JAN_panserbjorner_desc:0 ""
+ core_on_iceland_greenland:0 "Created Cores on us"
+ icy_cores_opinion:0 "Created Cores on us"
+ core_on_norway:0 "Created Cores on us"
 
  #Jan Mayen ideas
  JAN_otto_ruge:0 "Otto Ruge"
@@ -62,7 +86,7 @@
  JAN_kjeller_flyfabrikk:0 "Kjeller Flyfabrikk"
  JAN_kongsberg:0 "Kongsberg Våpenfabrikk"
  JAN_raufoss_ammunisjonsfabrikker:0 "Raufoss Ammunisjonsfabrikker"
-
+ 
 
  #Generic focusus
  JAN_army_effort:0 "Army Effort"

@@ -13,8 +13,184 @@ focus_tree = {
 	default = no
 
 	focus = {
+		id = JAN_expansive_retoric
+		icon = GFX_goal_generic_demand_territory
+		x = 27
+		y = 0
+		cost = 10
+		completion_reward = {
+			add_political_power = 120			
+		}
+	}
+
+	focus = {
+		id = JAN_core_on_iceland_greenland
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = JAN_expansive_retoric }
+		x = 26
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_opinion_modifier = { 
+				target = DEN 
+				modifier = core_on_iceland_greenland
+			}
+			JAN = {
+				add_state_core = 101
+				add_state_core = 100
+			}
+			
+		}
+	}
+
+	focus = {
+		id = JAN_demand_iceland_greenland
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = JAN_core_on_iceland_greenland }
+		x = 26
+		y = 2
+		cost = 10
+		completion_reward = {
+			JAN ={
+				country_event = {
+					id = janMayen.3
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = JAN_icy_cores
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = JAN_expansive_retoric }
+		x = 28
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_opinion_modifier = { 
+				target = ENG 
+				modifier = icy_cores_opinion
+			}
+
+			add_opinion_modifier = { 
+				target = CAN 
+				modifier = icy_cores_opinion
+			}
+			JAN = {
+				add_state_core = 331
+				add_state_core = 332
+				add_state_core = 466
+				add_state_core = 682
+				add_state_core = 472
+				add_state_core = 471
+			}
+			
+		}
+	}
+
+	focus = {
+		id = JAN_it_belongs_to_us
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		prerequisite = { focus = JAN_icy_cores }
+		x = 28
+		y = 2
+		cost = 10
+		completion_reward = {
+			create_wargoal = {
+				type = take_state_focus
+				target = CAN
+				generator = { 466 682 472 471 } 
+			}
+
+			create_wargoal = {
+				type = take_state_focus
+				target = ENG
+				generator = { 331 332 } 
+			}
+		}
+	}
+
+	focus = {
+		id = JAN_nowegian_governmet_illigitimate
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = JAN_expansive_retoric }
+		x = 30
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_opinion_modifier = { 
+				target = NOR 
+				modifier = core_on_norway
+			}
+			JAN = {
+				add_state_core = 110
+				add_state_core = 142
+				add_state_core = 143
+				add_state_core = 144
+			}
+			
+		}
+	}
+
+	focus = {
+		id = JAN_replace_the_rulers
+		icon = GFX_goal_generic_more_territorial_claims
+		prerequisite = { focus = JAN_nowegian_governmet_illigitimate }
+		x = 30
+		y = 2
+		cost = 10
+		completion_reward = {
+			create_wargoal = {
+				type = take_state_focus
+				target = NOR
+				generator = { 110 142 143 144 } 
+			}
+		}
+	}
+
+	focus = {
+		id = JAN_crazy_science
+		icon = GFX_focus_research
+		x = 32
+		y = 0
+		cost = 10
+		completion_reward = {
+			add_tech_bonus = {
+				name = electronic_bonus
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}
+		}
+	}
+
+	focus = {
+		id = JAN_polar_bear_cavalry
+		icon = GFX_goal_generic_cavalry
+		prerequisite = { focus = JAN_crazy_science }
+		x = 32
+		y = 1
+		cost = 10
+		completion_reward = {
+			custom_effect_tooltip = national_focus_WIP
+		}
+	}
+
+	focus = {
+		id = JAN_panserbjorner
+		icon = GFX_goal_generic_defence
+		prerequisite = { focus = JAN_polar_bear_cavalry }
+		x = 32
+		y = 2
+		cost = 10
+		completion_reward = {
+			custom_effect_tooltip = national_focus_WIP
+		}
+	}
+
+	focus = {
 		id = JAN_attract_immigrants
-		icon = GFX_goal_generic_production
+		icon = GFX_goal_generic_propaganda
 		x = 24
 		y = 0
 		cost = 10
@@ -31,7 +207,7 @@ focus_tree = {
 
 	focus = {
 		id = JAN_attract_more_immigrants
-		icon = GFX_goal_generic_production
+		icon = GFX_goal_generic_propaganda
 		prerequisite = { focus = JAN_attract_immigrants }
 		x = 24
 		y = 1
@@ -49,7 +225,7 @@ focus_tree = {
 
 	focus = {
 		id = JAN_attract_even_more_immigrants
-		icon = GFX_goal_generic_production
+		icon = GFX_goal_generic_propaganda
 		prerequisite = { focus = JAN_attract_more_immigrants }
 		x = 24
 		y = 2

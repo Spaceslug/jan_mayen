@@ -22,17 +22,51 @@ country_event = {
 }
 
 country_event = {
-	id = janMayen.toManyImmigrants
-	title = janMayen.toManyImmigrants.t
-	desc = janMayen.toManyImmigrants.d
+	id = janMayen.2
+	title = janMayen.2.t
+	desc = janMayen.2.d
 	picture = GFX_report_event_german_speech
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = janMayen.toManyImmigrants.a
+		name = janMayen.2.a
 		JAN = {
 			add_national_unity = -0.10
 		}		
+	}
+}
+
+country_event = {
+	id = janMayen.3
+	title = janMayen.3.t
+	desc = janMayen.3.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = janMayen.3.a
+		DEN = {
+			country_event ={
+				id = janMayen.4
+			}
+		}		
+	}
+}
+
+country_event = {
+	id = janMayen.4
+	title = janMayen.4.t
+	desc = janMayen.4.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = janMayen.4.a.1
+		JAN = {
+			transfer_state = 101
+			transfer_state = 100
+		}
 	}
 }
