@@ -51,9 +51,9 @@ focus_tree = {
 		y = 2
 		cost = 10
 		completion_reward = {
-			JAN ={
+			DEN ={
 				country_event = {
-					id = janMayen.3
+					id = janMayen.4
 				}
 			}
 		}

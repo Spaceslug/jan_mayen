@@ -24,17 +24,17 @@ set_technology = {
 	add_political_power = 1198
 	
 	#generic focuses
-	#complete_national_focus = army_effort
-	#complete_national_focus = equipment_effort
-	#complete_national_focus = motorization_effort
-	#complete_national_focus = aviation_effort
-	#complete_national_focus = naval_effort
-	#complete_national_focus = large_navy
-	#complete_national_focus = industrial_effort
-	#complete_national_focus = construction_effort
-	#complete_national_focus = production_effort
+	complete_national_focus = JAN_army_effort
+	complete_national_focus = JAN_equipment_effort
+	complete_national_focus = JAN_motorization_effort
+	complete_national_focus = JAN_aviation_effort
+	complete_national_focus = JAN_naval_effort
+	complete_national_focus = JAN_large_navy
+	complete_national_focus = JAN_industrial_effort
+	complete_national_focus = JAN_construction_effort
+	complete_national_focus = JAN_production_effort
 	
-	oob = "NOR_1939"
+	oob = "JAN_1939"
 	set_technology = {
 		gw_artillery = 1
 		interwar_artillery = 1
@@ -95,7 +95,7 @@ set_politics = {
 	}
 	
 	ruling_party = neutrality
-	last_election = "1933.10.16"
+	last_election = "1934.10.16"
 	election_frequency = 48s
 	elections_allowed = yes
 }
