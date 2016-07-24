@@ -221,7 +221,7 @@ focus_tree = {
 			}
 			JAN = {
 				country_event = { 
-					id = janMayen.toManyImmigrants 
+					id = janMayen.2 
 					days = 1 
 				}
 			}
