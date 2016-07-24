@@ -25,7 +25,7 @@ country_event = {
 	id = janMayen.2
 	title = janMayen.2.t
 	desc = janMayen.2.d
-	picture = GFX_report_event_german_speech
+	picture = GFX_report_event_gathering_protest
 	
 	is_triggered_only = yes
 	
@@ -59,6 +59,7 @@ country_event = {
 	id = janMayen.4
 	title = janMayen.4.t
 	desc = janMayen.4.d
+	picture = GFX_report_event_journalists_speech
 
 	is_triggered_only = yes
 
@@ -100,7 +101,7 @@ country_event = {
 	id = janMayen.5
 	title = janMayen.5.t
 	desc = janMayen.5.d
-	picture = GFX_report_event_german_speech
+	picture = GFX_report_event_nra_march
 	
 	is_triggered_only = yes
 	
@@ -118,7 +119,7 @@ country_event = {
 	id = janMayen.6
 	title = janMayen.6.t
 	desc = janMayen.6.d
-	picture = GFX_report_event_german_speech
+	picture = GFX_report_event_chamberlain_announce
 	
 	is_triggered_only = yes
 	

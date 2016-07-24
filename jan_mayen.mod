@@ -6,6 +6,6 @@ tags={
 	"Map"
 	"Events"
 }
-picture="jan_mayen.jpg"
+picture="jan_mayen.png"
 remote_file_id="728351306"
 supported_version="1.1.0"

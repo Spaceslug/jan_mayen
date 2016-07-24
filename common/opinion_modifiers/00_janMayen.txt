@@ -10,20 +10,8 @@
 
 opinion_modifiers = {
 
-	core_on_iceland_greenland = { 
-		value = -25
-	}
-
-	demanded_iceland_greenland = {
-		value = -50
-	}
-
-	icy_cores_opinion = {
-		value = -25
-	}
-
-	core_on_norway = {
-		value = -50
+	different_species = {
+		value = -30
 	}
 
 

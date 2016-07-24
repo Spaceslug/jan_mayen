@@ -31,10 +31,6 @@ focus_tree = {
 		y = 1
 		cost = 10
 		completion_reward = {
-			add_opinion_modifier = { 
-				target = DEN 
-				modifier = core_on_iceland_greenland
-			}
 			JAN = {
 				add_state_core = 101
 				add_state_core = 100
@@ -67,15 +63,7 @@ focus_tree = {
 		y = 1
 		cost = 10
 		completion_reward = {
-			add_opinion_modifier = { 
-				target = ENG 
-				modifier = icy_cores_opinion
-			}
-
-			add_opinion_modifier = { 
-				target = CAN 
-				modifier = icy_cores_opinion
-			}
+				
 			JAN = {
 				add_state_core = 331
 				add_state_core = 332
@@ -118,10 +106,7 @@ focus_tree = {
 		y = 1
 		cost = 10
 		completion_reward = {
-			add_opinion_modifier = { 
-				target = NOR 
-				modifier = core_on_norway
-			}
+			
 			JAN = {
 				add_state_core = 110
 				add_state_core = 142

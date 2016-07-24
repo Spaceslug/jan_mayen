@@ -7,6 +7,6 @@
 --National Focus
 -Make the national focus tree
 -Make polar bear line
--Make annexation line
- (Exspasive retoric: greenland and iceland core: denmark negativ opinion)
---Make polar bear nation ion
+-Make annexation line (done)
+-Make a faction line 
+--Make polar bear nation icon
