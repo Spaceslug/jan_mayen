@@ -1,2 +1,4 @@
+30.08.2205
+-Polarbear_cavarly: started on icon and implemented as unit
 28.08.2205
 -Added polarbear_cavarly. not implemented or tested
