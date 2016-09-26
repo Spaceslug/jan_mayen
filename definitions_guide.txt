@@ -2,4 +2,4 @@
 Eksample
 2288;13;12;232;sea;false;ocean;0
 Jan Mayen
-13204;92;248;37;land;true;mountain;*
+13205;92;248;37;land;true;mountain;*

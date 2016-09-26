@@ -1,4 +1,4 @@
-﻿capital = 741 #Jan Mayen
+﻿capital = 743 #Jan Mayen
 
 oob = "JAN_1936"
 
@@ -143,4 +143,11 @@ create_country_leader = {
 	traits = {
 		# 
 	}
+}
+
+create_corps_commander = {
+	name = "Staben Nordflak"
+	portrait_path = "gfx/leaders/Jan/Portrait_JanMayen_Human_Staben_NordFlak.dds"
+	traits = {  winter_specialist }
+	skill = 3
 }

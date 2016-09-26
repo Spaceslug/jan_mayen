@@ -1,0 +1,29 @@
+state={
+	id=743
+	name="STATE_743"
+
+	history={
+		owner = JAN
+		victory_points = {
+			13205 5 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+			13205 = {
+				naval_base = 1
+
+			}
+		}
+		add_core_of = JAN
+		add_core_of = NOR
+	}
+
+	provinces={
+		13205
+	}
+	manpower=52
+	buildings_max_level_factor=1
+	state_category="small_island"
+}

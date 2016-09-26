@@ -11,7 +11,7 @@ country_event = {
 	
 	option = {
 		name = janMayen.1.a
-		741 = {
+		743 = {
 			if = {
 				limit = { is_owned_by = JAN }
 				#state_category = megalopolis

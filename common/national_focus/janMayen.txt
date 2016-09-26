@@ -180,7 +180,7 @@ focus_tree = {
 		y = 0
 		cost = 10
 		completion_reward = {
-			741 = {
+			743 = {
 				add_manpower = 10000
 			}
 		}
@@ -198,7 +198,7 @@ focus_tree = {
 		y = 1
 		cost = 10
 		completion_reward = {
-			741 = {
+			743 = {
 				add_manpower = 20000
 			}
 		}
@@ -216,7 +216,7 @@ focus_tree = {
 		y = 2
 		cost = 10
 		completion_reward = {
-			741 = {
+			743 = {
 				add_manpower = 20000
 			}
 			JAN = {
