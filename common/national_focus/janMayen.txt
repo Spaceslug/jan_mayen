@@ -1031,7 +1031,7 @@ focus_tree = {
 		y = 0
 		cost = 10
 		completion_reward = {
-			741 = {
+			743 = {
 				add_extra_state_shared_building_slots = 5
 			}
 			add_tech_bonus = {
