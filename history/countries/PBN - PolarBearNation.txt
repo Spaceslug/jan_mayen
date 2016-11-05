@@ -1,4 +1,4 @@
-﻿#capital = 743 #Polarbear Nation
+﻿capital = 743 #Polarbear Nation
 
 oob = "PBN_1936"
 

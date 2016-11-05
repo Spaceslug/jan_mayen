@@ -11,3 +11,4 @@
 -Make annexation line (done)
 -Make a faction line 
 --Make polar bear nation icon
+-Make sure PBN ai is only active when it should

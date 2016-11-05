@@ -5,3 +5,11 @@ Jan Mayen was not occupied during the World War II, and remained as «Free Norway
 Atlantic city as a national focus
 
 Plane crash as an event
+
+#sets a  flag. Can be tested later 
+set_country_flag = become_vichy
+set_global_flag = fall_of_france
+
+has_global_flag = fall_of_france
+
+neutrality

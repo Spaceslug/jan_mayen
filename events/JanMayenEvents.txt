@@ -151,9 +151,9 @@ country_event = {
 	picture = GFX_report_event_gathering_protest
 	
 	fire_only_once = yes # It will not fire more then once.
-	
-	mean_time_to_happen = {
-		days = 1
+
+	trigger = {
+		is_ai = no
 	}
 
 	option = {
@@ -180,16 +180,19 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = { # Occurs once the event occurs.
-		PBN = {
-			annex_country = { target = JAN }
-		}
-		#TODO all the crasy take over stuff
+		
 	}
-}
 
 	option = {
 		name = "You are now polarbear nation"
+		PBN = {
+			#TODO must check if player is JAN
+			annex_country = { target = JAN }
+			change_tag_from = JAN
 			
+
+		}
+		#TODO all the crasy take over stuff
 	}
 }
 

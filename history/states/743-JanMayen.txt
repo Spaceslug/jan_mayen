@@ -1,6 +1,6 @@
 state={
 	id=743
-	name="STATE_743"
+	name="Jan Mayen"
 
 	history={
 		owner = JAN
