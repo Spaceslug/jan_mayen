@@ -143,3 +143,53 @@ country_event = {
 		}		
 	}
 }
+
+country_event = {
+	id = janMayen.12
+	title = "Polarbear debug event"
+	desc = janMayen.12.d
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes # It will not fire more then once.
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "Play as Polarbear Nation"
+		country_event ={
+				id = janMayen.13
+		}
+	}
+
+	option = {
+		name = "Play as Jan Mayen"
+			
+	}
+}
+
+country_event = {
+	id = janMayen.13
+	title = "The polarbears takes over event"
+	desc = "Bla bla some words"
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes # It will not fire more then once.
+	
+	is_triggered_only = yes
+
+	immediate = { # Occurs once the event occurs.
+		PBN = {
+			annex_country = { target = JAN }
+		}
+		#TODO all the crasy take over stuff
+	}
+}
+
+	option = {
+		name = "You are now polarbear nation"
+			
+	}
+}
+

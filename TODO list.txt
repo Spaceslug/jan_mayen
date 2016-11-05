@@ -6,6 +6,7 @@
 -Make Jan Mayen island in the terrain bitmap (done)
 --National Focus
 -Make the national focus tree
+	-Needs a way to fix national unity
 -Make polar bear line
 -Make annexation line (done)
 -Make a faction line 
