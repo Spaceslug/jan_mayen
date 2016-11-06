@@ -153,7 +153,10 @@ country_event = {
 	fire_only_once = yes # It will not fire more then once.
 
 	trigger = {
-		is_ai = no
+		tag = JAN
+		JAN = {
+			is_ai = no
+		}
 	}
 
 	option = {
@@ -185,14 +188,28 @@ country_event = {
 
 	option = {
 		name = "You are now polarbear nation"
-		PBN = {
-			#TODO must check if player is JAN
-			annex_country = { target = JAN }
-			change_tag_from = JAN
+
+		hidden_effect = {
+			PBN = {
+				#TODO must check if player is JAN
+				#annex_country = { target = JAN }
+				add_state_core = 743
+				change_tag_from = JAN
+			}
+			JAN = {
+				release = PBN
+			}
+			PBN = {
+				
+			}
+		}
+
+		custom_effect_tooltip = "The polar bears takes over the country"
 			
 
-		}
+		
 		#TODO all the crasy take over stuff
+		}
 	}
 }
 
