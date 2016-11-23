@@ -146,6 +146,9 @@ focus_tree = {
 				uses = 1
 				category = electronics
 			}
+
+			set_technology = { polarbear_cavalry = 1 }
+			set_country_flag = polarbear_cavalry_unlocked
 		}
 	}
 

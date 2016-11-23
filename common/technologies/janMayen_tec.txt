@@ -14,10 +14,17 @@ technologies = {
 
 	polarbear_cavalry = {
 
-		
-		
 		enable_subunits = {
 			polarbear_cavalry
-		}	
+		}
+
+		#enable_equipments = {
+		#	brain_implants
+		#}
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
 	}
 }

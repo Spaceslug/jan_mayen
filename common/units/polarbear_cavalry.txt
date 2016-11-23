@@ -52,6 +52,7 @@ sub_units = {
 	
 		need = {
 			infantry_equipment = 120
+			#brain_implants = 64
 		}
 
 		forest = {
