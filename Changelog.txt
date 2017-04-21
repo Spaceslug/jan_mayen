@@ -1,6 +1,10 @@
+21.04.2017
+-Terrain map
+-Added default map
+- .mod to version 1.3
 31.08.2205
 -Polarbear_cavarly: made icon
 30.08.2205
 -Polarbear_cavarly: implemented as unit
 28.08.2205
--Added polarbear_cavarly. not implemented or tested
+-Added polarbear_cavarly. not implemented or tested<
