@@ -171,7 +171,7 @@ country_event = {
 			
 	}
 }
-
+# Polar Bear Nation takes over event
 country_event = {
 	id = janMayen.13
 	title = "The polarbears takes over event"
@@ -191,14 +191,16 @@ country_event = {
 
 		hidden_effect = {
 			PBN = {
-				#TODO must check if player is JAN
+				#TODO must check if player is JAN §§ is done in parent event
 				#annex_country = { target = JAN }
 				add_state_core = 743
+				set_state_owner = 642
 				change_tag_from = JAN
 			}
 			JAN = {
 				release = PBN
 			}
+			USA = { set_state_owner = 642 }
 			PBN = {
 				
 			}
