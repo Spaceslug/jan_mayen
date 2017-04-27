@@ -191,14 +191,15 @@ country_event = {
 
 		hidden_effect = {
 			JAN = {
-				set_state_owner = 642
+				#set_state_owner = 642
 			}
 			PBN = {
 				#TODO must check if player is JAN §§ is done in parent event
-				#annex_country = { target = JAN }
+				
 				add_state_core = 743
 				#set_state_owner = 642
-				#change_tag_from = JAN
+				change_tag_from = JAN
+				annex_country = { target = JAN }
 			}
 			JAN = {
 				release = PBN
@@ -215,6 +216,64 @@ country_event = {
 
 		
 		#TODO all the crasy take over stuff
+
+		#JAN_army_effort
+		#JAN_equipment_effort
+		#JAN_motorization_effort
+		#JAN_doctrine_effort
+		#JAN_equipment_effort_2
+		#JAN_mechanization_effort
+		#JAN_doctrine_effort_2
+		#JAN_equipment_effort_3
+		#JAN_armor_effort
+		#JAN_special_forces
+		#JAN_fighter_focus
+		#JAN_bomber_focus
+		#JAN_aviation_effort_2
+		#JAN_CAS_effort
+		#JAN_rocket_effort
+		#JAN_NAV_effort
+		#JAN_naval_effort
+		#JAN_flexible_navy
+		#JAN_large_navy
+		#JAN_submarine_effort
+		#JAN_cruiser_effort
+		#JAN_destroyer_effort
+		#JAN_capital_ships_effort
+		#JAN_industrial_effort_2
+		#JAN_construction_effort
+		#JAN_production_effort
+		#JAN_construction_effort_2
+		#JAN_production_effort_2
+		#JAN_production_effort_3
+		#JAN_infrastructure_effort
+		#JAN_infrastructure_effort_2
+		#JAN_construction_effort_3
+		#JAN_nuclear_effort
+		#JAN_extra_tech_slot_2
+		#JAN_technology_sharing
+		#JAN_secret_weapons
+		#JAN_political_effort
+		#JAN_collectivist_ethos
+		#JAN_liberty_ethos
+		#JAN_militarism
+		#JAN_political_correctness
+		#JAN_neutrality_focus
+		#JAN_interventionism_focus
+		#JAN_military_youth
+		#JAN_deterrence
+		#JAN_volunteer_corps
+		#JAN_paramilitarism
+		#JAN_indoctrination_focus
+		#JAN_foreign_expeditions
+		#JAN_why_we_fight
+		#JAN_political_commissars
+		#JAN_internationalism_focus
+		#JAN_nationalism_focus
+		#JAN_ideological_fanaticism
+		#JAN_air_innovation
+		#JAN_air_innovation_2
+		#JAN_naval_air_effort
 		}
 	}
 }
