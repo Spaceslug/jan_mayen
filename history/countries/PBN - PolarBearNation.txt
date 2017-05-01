@@ -103,7 +103,7 @@ set_politics = {
 
 #TODO: a real leader
 create_country_leader = {
-	name = "Rune Leirvik"
+	name = "Rawr Dahl "
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
@@ -115,7 +115,7 @@ create_country_leader = {
 
 #TODO: a real leader
 create_country_leader = {
-	name = "Henning Grytingslien"
+	name = "Rawr Grrr"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	expire = "1965.1.1"
@@ -127,7 +127,7 @@ create_country_leader = {
 
 #TODO: a real leader
 create_country_leader = {
-	name = "Henning Simonsen"
+	name = "Brum Blomstfjellet"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
@@ -138,7 +138,7 @@ create_country_leader = {
 }
 #TODO: a real leader
 create_country_leader = {
-	name = "Håvard Haugan"
+	name = "Ursus Medved "
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
