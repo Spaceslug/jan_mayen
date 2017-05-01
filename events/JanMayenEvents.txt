@@ -152,12 +152,12 @@ country_event = {
 	
 	fire_only_once = yes # It will not fire more then once.
 
-	trigger = {
-		tag = JAN
-		JAN = {
-			is_ai = no
-		}
-	}
+	#trigger = {
+	#	tag = JAN
+	#	JAN = {
+	#		is_ai = no
+	#	}
+	#}
 
 	option = {
 		name = "Play as Polarbear Nation"
@@ -216,6 +216,8 @@ country_event = {
 
 		
 		#TODO all the crasy take over stuff
+
+		743 = { add_manpower = 39000 }
 
 		#JAN_army_effort
 		#JAN_equipment_effort

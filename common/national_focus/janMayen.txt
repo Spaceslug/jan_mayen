@@ -252,6 +252,9 @@ focus_tree = {
 				uses = 1
 				category = land_doctrine
 			}
+			hidden_effect = {
+				set_country_flag = JAN_army_effort_unlocked
+			}
 		}
 	}
 
@@ -1034,6 +1037,9 @@ focus_tree = {
 		y = 0
 		cost = 10
 		completion_reward = {
+			hidden_effect = {
+				set_country_flag = JAN_industrial_effort_unlocked
+			}
 			743 = {
 				add_extra_state_shared_building_slots = 5
 			}
@@ -1077,6 +1083,7 @@ focus_tree = {
 		}
 
 		complete_tooltip = {
+			
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = industrial_complex
@@ -1086,6 +1093,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			hidden_effect = {
+				set_country_flag = JAN_construction_effort_unlocked
+			}
 			random_owned_state = {
 				limit = {
 					free_building_slots = {
@@ -1145,6 +1155,7 @@ focus_tree = {
 		}
 
 		complete_tooltip = {
+
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = arms_factory
@@ -1154,6 +1165,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			hidden_effect = {
+				set_country_flag = JAN_production_effort_unlocked
+			}
 			random_owned_state = {
 				limit = {
 					free_building_slots = {
@@ -1222,6 +1236,9 @@ focus_tree = {
 		}		
 
 		completion_reward = {
+			hidden_effect = {
+				set_country_flag = JAN_construction_effort_2_unlocked
+			}
 			random_owned_state = {
 				limit = {
 					free_building_slots = {
@@ -1290,6 +1307,9 @@ focus_tree = {
 		}		
 
 		completion_reward = {
+			hidden_effect = {
+				set_country_flag = JAN_production_effort_2_unlocked
+			}
 			random_owned_state = {
 				limit = {
 					free_building_slots = {
@@ -1356,6 +1376,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			hidden_effect = {
+				set_country_flag = JAN_infrastructure_effort_unlocked
+			}
 			random_owned_state = {
 				limit = {
 					free_building_slots = {
@@ -1448,6 +1471,9 @@ focus_tree = {
 		}		
 
 		completion_reward = {
+			hidden_effect = {
+				set_country_flag = JAN_production_effort_3_unlocked
+			}
 			random_owned_state = {
 				limit = {
 					free_building_slots = {
@@ -1514,6 +1540,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			hidden_effect = {
+				set_country_flag = JAN_infrastructure_effort_2_unlocked
+			}
 			random_owned_state = {
 				limit = {
 					free_building_slots = {
@@ -1606,6 +1635,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			hidden_effect = {
+				set_country_flag = JAN_construction_effort_3_unlocked
+			}
 			random_owned_state = {
 				limit = {
 					free_building_slots = {
